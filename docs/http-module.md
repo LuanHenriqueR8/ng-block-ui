@@ -4,7 +4,7 @@
 This module allows for blocking automatically during all HTTP requests made with the `HttpClient`
 
 ### Setup
-The core `BlockUIModule` should first be imported within the app. Once added, a seperate module called `BlockUIHttpModule` should then be imported to allow for HTTP blocking.
+The core `BlockUIModule` should first be imported within the app. Once added, a separate module called `BlockUIHttpModule` should then be imported to allow for HTTP blocking.
 
 ```ts
 import { HttpClientModule } from '@angular/common/http';
